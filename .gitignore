@@ -1,0 +1,36 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# Catalog data (supply locally; see README)
+/data/
+/frontend/styles.csv
+
+# Generated model artifacts (rebuild with frontend/main2.ipynb)
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+/frontend/fashion_model/
+/frontend/image_paths.json
+
+# Unrelated scratch notebook
+/frontend/exe.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db

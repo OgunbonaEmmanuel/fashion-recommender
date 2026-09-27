@@ -1,0 +1,13 @@
+# Application dependencies; versions recorded from the local environment.
+streamlit==1.56.0
+tensorflow==2.21.0
+keras==3.14.0
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3
+Pillow==12.3.0
+
+# Additional dependencies imported by the project notebooks.
+pandas==3.0.2
+opencv-python==4.14.0.94
+matplotlib==3.10.8
